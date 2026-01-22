@@ -68,9 +68,9 @@ export default {
         videoId: videoId,
         direct_tools: [
           `https://vd6s.com/watch?v=${videoId}`,
-          `https://y2mate.com/youtube/${videoId}`,
-          `https://en.y2mate.net/youtube/${videoId}`,
-          `https://yt5s.com/en?q=https://youtube.com/watch?v=${videoId}`
+          `https://vd6s.com/watch?v=${videoId}`,
+          `https://vd6s.com/watch?v=${videoId}`,
+          `https://vd6s.com/watch?v=${videoId}`
         ],
         quick_method: 'Add "ss" before youtube in URL',
         example: `https://vd6s.com/watch?v=${videoId}`,
@@ -300,8 +300,8 @@ async function getYouTubeEmbedData(videoId) {
         message: 'Use direct download tools below',
         download_tools: [
           `https://vd6s.com/watch?v=${videoId}`,
-          `https://y2mate.com/youtube/${videoId}`,
-          `https://en.y2mate.net/youtube/${videoId}`
+          `https://vd6s.com/watch?v=${videoId}`,
+          `https://vd6s.com/watch?v=${videoId}`
         ],
         source: 'youtube-oembed'
       };
